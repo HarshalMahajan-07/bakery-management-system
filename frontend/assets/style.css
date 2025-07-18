@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+#app {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+h1 {
+    text-align: center;
+    color: #d2691e;
+}
+section {
+    margin-bottom: 40px;
+}
+h2 {
+    color: #8b4513;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+form {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+input, button {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    background: #d2691e;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+button:hover {
+    background: #a0522d;
+}
+#product-list, #order-list, #customer-list {
+    margin-top: 10px;
+}
